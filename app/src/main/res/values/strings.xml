@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MachineHomework1</string>
+    <string name="edit_title">Title</string>
+    <string name="edit_content">Content</string>
+    <string name="btn_send">SEND</string>
+    <string name="btn_clear">CLEAR</string>
+    <string name="btn_cancel">CANCEL</string>
+</resources>

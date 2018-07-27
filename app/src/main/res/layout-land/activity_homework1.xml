@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homework1">
+
+    <!-- Author: Ronulfo Pacot -->
+
+    <EditText
+        android:id="@+id/edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:hint="@string/edit_title" />
+
+    <EditText
+        android:id="@+id/edit_content"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:hint="@string/edit_content" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_content"
+        android:hint="@string/btn_send" />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_content"
+        android:layout_toRightOf="@id/btn_send"
+        android:hint="@string/btn_clear" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_content"
+        android:layout_toRightOf="@id/btn_clear"
+        android:hint="@string/btn_cancel" />
+
+    <!-- Author: Ronulfo Pacot -->
+
+</RelativeLayout>
